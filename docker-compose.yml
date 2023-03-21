@@ -1,0 +1,8 @@
+version: '3'
+services:
+   webapp:
+     image: iamthelegion/staticweb:v1
+     container_name: mywebapp
+     ports:
+        - "8080:80"     
+
